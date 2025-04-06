@@ -1,0 +1,34 @@
+[pavani@PAVANIPABASARA ~]$ vi example01.sh
+[pavani@PAVANIPABASARA ~]$ ls
+Q1.sh  Q5.sh  dinithi.txt   new.txt   new3.csv  new4.sh      test.txt
+Q3.sh  Q6.sh  example01.sh  new2.csv  new3.sh   newfile.tsv
+[pavani@PAVANIPABASARA ~]$ chmod 777 example01.sh
+[pavani@PAVANIPABASARA ~]$ ls
+Q1.sh  Q5.sh  dinithi.txt   new.txt   new3.csv  new4.sh      test.txt
+Q3.sh  Q6.sh  example01.sh  new2.csv  new3.sh   newfile.tsv
+[pavani@PAVANIPABASARA ~]$ ./example01.sh
+Who are you?
+pavani
+Enter number 1
+8
+Enter number 2
+9
+Enter number 3
+10
+Hi pavani
+Summation        27
+Average  9
+[pavani@PAVANIPABASARA ~]$ vi example02.sh
+[pavani@PAVANIPABASARA ~]$ chmod 777 example02.sh
+[pavani@PAVANIPABASARA ~]$ ls
+Q1.sh  Q5.sh  dinithi.txt   example02.sh  new2.csv  new3.sh  newfile.tsv
+Q3.sh  Q6.sh  example01.sh  new.txt       new3.csv  new4.sh  test.txt
+[pavani@PAVANIPABASARA ~]$ ./example02.sh
+Enter a
+10
+Enter number b
+8
+Summation        18
+Subtraction      2
+Multiplication   80
+Division         1
