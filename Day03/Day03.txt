@@ -1,0 +1,72 @@
+[pavani@PAVANIPABASARA ~]$ touch newfile.tsv
+[pavani@PAVANIPABASARA ~]$ vi newfile.tsv
+[pavani@PAVANIPABASARA ~]$ ls -a
+.              .bash_profile  Q1.sh  dinithi.txt  new3.sh
+..             .bashrc        Q3.sh  new.txt      new4.sh
+.bash_history  .new2.sh.swp   Q5.sh  new2.csv     newfile.tsv
+.bash_logout   .test.txt.swp  Q6.sh  new3.csv     test.txt
+[pavani@PAVANIPABASARA ~]$ vi newfile.tsv
+[pavani@PAVANIPABASARA ~]$ cut -d$'\t' -f1 newfile.tsv
+aa      1       2       3
+bb      2       3       4
+cc      3       4       5
+dd      4       5       6
+ee      5       6       7
+ff      6       7       8
+gg      7       8       9
+hh      8       9       10
+[pavani@PAVANIPABASARA ~]$ cut -d " " -f3 newfile.tsv
+
+
+
+
+
+
+
+
+[pavani@PAVANIPABASARA ~]$ cut -d$'\t' -f3 newfile.tsv
+aa      1       2       3
+bb      2       3       4
+cc      3       4       5
+dd      4       5       6
+ee      5       6       7
+ff      6       7       8
+gg      7       8       9
+hh      8       9       10
+[pavani@PAVANIPABASARA ~]$ head -n2 newfile.tsv
+aa      1       2       3
+bb      2       3       4
+[pavani@PAVANIPABASARA ~]$ tail -n2 newfile.tsv
+gg      7       8       9
+hh      8       9       10
+[pavani@PAVANIPABASARA ~]$ head -n8 newfile.tsv | tail -n1
+hh      8       9       10
+[pavani@PAVANIPABASARA ~]$ awk '{print'} newfile.tsv
+aa      1       2       3
+bb      2       3       4
+cc      3       4       5
+dd      4       5       6
+ee      5       6       7
+ff      6       7       8
+gg      7       8       9
+hh      8       9       10
+[pavani@PAVANIPABASARA ~]$ awk '{print NF; exit'} newfile.tsv
+4
+[pavani@PAVANIPABASARA ~]$ awk '{print $3'} newfile.tsv
+2
+3
+4
+5
+6
+7
+8
+9
+[pavani@PAVANIPABASARA ~]$ wc -l newfile.tsv
+8 newfile.tsv
+[pavani@PAVANIPABASARA ~]$ head -n5 newfile.tsv | grep 'dd'
+dd      4       5       6
+[pavani@PAVANIPABASARA ~]$ head -n7 newfile.tsv | grep '6'
+dd      4       5       6
+ee      5       6       7
+ff      6       7       8
+[pavani@PAVANIPABASARA ~]$
