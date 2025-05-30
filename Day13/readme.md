@@ -45,9 +45,14 @@ Each program is crafted to build logical problem-solving skills using the C lang
 ## 🎯 Learning Objectives
 
 ✅ Understand conditional operators and control flow
+
 ✅ Implement loops (`for`, `while`) for iteration
+
 ✅ Work with arrays and string operations
+
 ✅ Develop logical thinking through real-world examples
+
 ✅ Apply number theory and mathematical formulas in code
+
 
 ---
