@@ -57,7 +57,3 @@ Child process 01 exiting...
 Child process 02 exiting...
 Parent process ending.
 
----
-
-If you want, I can help jazz this up for a presentation or a project report too!
-```
